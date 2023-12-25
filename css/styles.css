@@ -29,7 +29,7 @@ ul {
 }
 
 .titles {
-    color: #434455;
+    color: #2E2F42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -40,7 +40,27 @@ ul {
 
 }
 
+.titles:hover {
+    color: #404BBF;
+}
+
+.titles:focus {
+    color: #404BBF;
+}
+
 /* contacts styles */
+
+.address {
+    font-style: normal;
+}
+
+.contacts:hover {
+    color: #404BBF;
+}
+
+.contacts:focus {
+    color: #404BBF;
+}
 
 .contacts {
     color: #434455;
@@ -79,16 +99,16 @@ ul {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
 
 }
 
 .button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 ]
